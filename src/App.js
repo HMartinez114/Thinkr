@@ -17,10 +17,10 @@ function App() {
       <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/' element={<Dao />} />
-          <Route path='/' element={<Roadmap />} />
-          <Route path='/' element={<Team />} />
-          <Route path='/' element={<Faq />} />
+          <Route path='/dao' element={<Dao />} />
+          <Route path='/roadmap' element={<Roadmap />} />
+          <Route path='/team' element={<Team />} />
+          <Route path='/faq' element={<Faq />} />
         </Routes>
         <Footer />
     </Router>
